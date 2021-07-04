@@ -1,4 +1,0 @@
-reinforcement learning
-
--dynamic programming
-
