@@ -272,8 +272,8 @@ for train_filename in train_filenames:
             example = formatting_data(raw_text, clusters, doc_key)
         train_list.append(example)
         except:
-        print(train_filename)
-        continue
+            print(train_filename)
+            continue
 
 train_file_fd = open(c["train_file_path"], "w", encoding="utf-8")
 
@@ -293,8 +293,8 @@ for val_filename in val_filenames:
             example = formatting_data(raw_text, clusters, doc_key)
         val_list.append(example)
         except:
-        print(val_filename)
-        continue
+            print(val_filename)
+            continue
 
 val_file_fd = open(c["val_file_path"], "w", encoding="utf-8")
 
